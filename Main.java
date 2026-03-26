@@ -13,6 +13,16 @@ public static void main(String[] args) {
 		 // ── Integrante 2: Cliente ───────────────────────────────
 		 // Crear una instancia de Cliente con datos reales.
 		 // Llamar a: mostrarPerfil(), realizarCompra() y mostrarSaldo().
+		Cliente cliente = new Cliente("Mateo Molina", "mateo.molina@gmail.com", 330.00);
+        
+        System.out.println("=== PERFIL DEL CLIENTE ===");
+        cliente.mostrarPerfil();
+        
+        System.out.println("=== REALIZANDO COMPRA ===");
+        cliente.realizarCompra(125.50);
+        
+        System.out.println("=== CONSULTAR SALDO ===");
+        cliente.mostrarSaldo();
 		 // ── Integrante 3: Carrito ───────────────────────────────
 		 // Crear una instancia de Carrito.
 		 // Agregar al menos 2 productos con agregarProducto().
