@@ -1,3 +1,7 @@
+
+
+public class Main {
+
 public static void main(String[] args) {
 		 System.out.println("===== Bienvenido a la Tienda Digital =====");
 		 System.out.println();
@@ -34,3 +38,4 @@ public static void main(String[] args) {
 		 System.out.println();
 		 System.out.println("===== Fin del programa =====");
 		 }
+        }
