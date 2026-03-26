@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	  	   System.out.println("Precio con Descuento "+ producto.aplicarDescuento(10));
 	      
 	       
-		 // ── Integrante 2: Cliente ───────────────────────────────
+		 //── Integrante 2: Cliente ───────────────────────────────
 		 // Crear una instancia de Cliente con datos reales.
 		 // Llamar a: mostrarPerfil(), realizarCompra() y mostrarSaldo().
 		Cliente cliente = new Cliente("Mateo Molina", "mateo.molina@gmail.com", 330.00);
