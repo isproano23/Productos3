@@ -2,7 +2,7 @@
 
 public class Main {
 
-public static void main(String[] args) {
+public static void main(String[] args) {    
 		 System.out.println("===== Bienvenido a la Tienda Digital =====");
 		 System.out.println();
 		 // ── Integrante 1: Producto ──────────────────────────────
