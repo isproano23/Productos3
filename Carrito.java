@@ -33,6 +33,19 @@ public class Carrito {
 
         System.out.println("Total del carrito: $" + total);
     }
+
+    public void mostrarResumen() {
+        double total = 0;
+
+        System.out.println("=== Carrito de " + nombreCliente + " ===");
+
+        for (int i = 0; i < cantidad; i++) {
+            System.out.println((i + 1) + ". " + productos[i] + " - $" + precios[i]);
+            total += precios[i];
+        }
+
+        System.out.println("Total: $" + total);
+    }
   
    
 }
